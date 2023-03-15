@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/Nicon.png" />
       </Head>
 
-    <div className="font-bodyFont">
+    <div className="font-bodyFont w-fit md:w-full" > {/* w-fit solves the small screen media query */}
       {/* ============ BANNER SECTION START ============ */}
       <Banner />
       {/* ============ BANNER SECTION END ============ */}
