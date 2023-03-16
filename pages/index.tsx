@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import AboutMe from '../components/AboutMe'
-import Banner from '../components/Banner'
-import Contact from '../components/Contact'
-import Experience from '../components/Experience'
-import Offer from '../components/Offer'
-import ScrollBtn from '../components/ScrollBtn'
+import AboutMe from '../components/Home/AboutMe'
+import Banner from '../components/Home/Banner'
+import Contact from '../components/Home/Contact'
+import Experience from '../components/Home/Experience'
+import Offer from '../components/Home/Offer'
+import ScrollBtn from '../components/Home/ScrollBtn'
 
 
 const Home: NextPage = () => {
