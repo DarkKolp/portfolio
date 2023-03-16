@@ -9,10 +9,11 @@ const Experience = () => {
       <h1 className='text-[25px] uppercase tracking-[10px] font-semibold text-center'>
         Featured works.
       </h1>
-      <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 
-      lg:gap-2 h-[1000px] md:h-[480px] mt-16 px-6'>
+      
+      <div className='w-full h-[1900px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 
+      lg:gap-2 lg:h-[480px] md:h-[480px] mt-16 px-6'>
         
-
+        {/* Image 1 */}
         <div className='w-full h-full relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-125 group-hover:scale-100 duration-500'
           src={wimg1} 
@@ -31,7 +32,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
-
+        {/* Image 2 */}
         <div className='w-full h-full relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-125 group-hover:scale-100 duration-500'
           src={wimg2} 
