@@ -15,6 +15,7 @@ const Experience = () => {
       md:h-[1350px] mt-16 px-6'>
         
         {/* Image 1 */}
+        {/* Image 1 */}
         <div className='w-full h-full relative overflow-hidden group'>
           
           <Image className='w-full h-full object-cover scale-125 group-hover:scale-100 duration-500'
@@ -39,6 +40,7 @@ const Experience = () => {
             </div>
           </div>
         </div>
+        {/* Image 2 */}
         {/* Image 2 */}
         <div className='w-full h-full relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-125 group-hover:scale-100 duration-500'
