@@ -27,7 +27,7 @@ const Certificates = () => {
           <div className='w-[300px] h-[386px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
             <Image className='w-full h-full object-cover scale-100'
             src={cimg1} 
-            alt="wimg1" 
+            alt="cimg1" 
             />
           </div>
         </Link>
@@ -37,7 +37,7 @@ const Certificates = () => {
           <div className='w-[300px] h-[386px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
             <Image className='w-full h-full object-cover scale-100'
             src={cimg1} 
-            alt="wimg1" 
+            alt="cimg1" 
             />
           </div>
         </Link>
@@ -54,7 +54,7 @@ const Certificates = () => {
         <div className='w-[300px] h-[386px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-100'
           src={cimg1} 
-          alt="wimg1" 
+          alt="cimg1" 
           />
           <div className='absolute w-full h-[480px] left-0 top-0'>
             <div className='w-full h-full relative bg-black bg-opacity-70 hidden
@@ -69,7 +69,7 @@ const Certificates = () => {
         <div className='w-[300px] h-[386px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-100'
           src={cimg1} 
-          alt="wimg1" 
+          alt="cimg1" 
           />
           <div className='absolute w-full h-[480px] left-0 top-0'>
             <div className='w-full h-full relative bg-black bg-opacity-70 hidden

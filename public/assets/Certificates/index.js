@@ -1,3 +1,3 @@
-import cimg1 from "../Certificates/Certificate_EthereumProg101.JPG"
+import cimg1 from "../Certificates/CertificateEthereumProg101.jpg"
 
 export {cimg1}
