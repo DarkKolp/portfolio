@@ -5,7 +5,7 @@ import { cimg1 } from "../../public/assets/Certificates/index.js";
 
 const Certificates = () => {
   return (
-    <section id='certificates' className='w-full h-full bg-gray-900 text-white py-28'>
+    <section id='certificates' className='w-full h-full bg-[#0c0e0f] text-white py-28'>
       <h1 className='text-[25px] uppercase tracking-[10px] font-semibold text-center'>
         Certificates
       </h1>
