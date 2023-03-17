@@ -15,7 +15,7 @@ const Fotterlab = () => {
             <h1 className='text-3xl font-bold text-designColor'>Special Thanks</h1>
         </div>
 
-        {/* Links */}
+        {/* Links - They are not 100% centered*/}
         <div className='w-full h-full lg:px-80 pt-5 bg-black flex flex-col items-center gap-7 
         lg:flex-row lg:justify-between'>
                 {/* Nuno João */}

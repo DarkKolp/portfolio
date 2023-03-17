@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react'
 import Link from 'next/link';
-import { wimg1, wimg2, wimg3, wimg4 } from "../../public/assets/index.js";
+import { wimg1, wimg2, wimg3 } from "../../public/assets/index.js";
 
 const Experience = () => {
   return (
@@ -14,7 +14,6 @@ const Experience = () => {
       lg:flex lg:justify-between lg:gap-30 lg:h-[480px] 
       md:h-[1350px] mt-16 px-6'>
         
-        {/* Image 1 */}
         {/* Image 1 */}
         <div className='w-full h-full relative overflow-hidden group'>
           
@@ -41,7 +40,6 @@ const Experience = () => {
           </div>
         </div>
         {/* Image 2 */}
-        {/* Image 2 */}
         <div className='w-full h-full relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-125 group-hover:scale-100 duration-500'
           src={wimg2} 
@@ -51,11 +49,11 @@ const Experience = () => {
             <div className='w-full h-full relative bg-black bg-opacity-70 lg:hidden
             group-hover:inline-block transition-opacity duration-500'>
               <h1 className='text-2xl text-center font-bold px-6 py-2 w-full 
-              absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-20'>Blockchain Research & Certificates</h1>
+              absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-20'>Blockchain & Web3 Education</h1>
               <h1 className='text-2xl text-center font-bold px-6 py-2 w-full 
               absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-10'>2020 - Present</h1>
               {/* Link to the maintenance page */}
-              <Link href="/maintenance">
+              <Link href="/research">
               <button 
               className='text-xl text-center font-bold bg-designColor px-6 py-2 w-60 
               absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-10'

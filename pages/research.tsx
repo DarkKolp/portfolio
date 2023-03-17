@@ -1,7 +1,9 @@
 import { NextPage } from 'next'
 import React from 'react'
 import Head from 'next/head'
-import Banner from '../components/Labexp/BannerLab'
+import BannerR from '../components/Research/BannerR'
+import AboutR from '../components/Research/AboutR'
+import Certificates from '../components/Research/Certifitates'
 
 
 const BCResearch: NextPage = () => {
@@ -14,8 +16,10 @@ const BCResearch: NextPage = () => {
 
         <div className="font-bodyFont w-screen" > {/* w-fit solves the small screen media query */}
         {/* ============ BANNER SECTION START ============ */}
-        <Banner />
+        <BannerR />
         {/* ============ BANNER SECTION END ============ */}
+        <AboutR />
+        <Certificates />
         </div>
     </div>
   )
