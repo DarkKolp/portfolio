@@ -2,12 +2,9 @@ import { NextPage } from 'next'
 import React from 'react'
 import Head from 'next/head'
 import Banner from '../components/Labexp/BannerLab'
-import AboutLab from '../components/Labexp/AboutLab'
-import ExperienceLab from '../components/Labexp/ExperienceLab'
-import ScrollBtn from '../components/General/ScrollBtn'
-import Fotterlab from '../components/Labexp/Fotterlab'
 
-const Labexp: NextPage = () => {
+
+const BCResearch: NextPage = () => {
   return (
     <div>
         <Head>
@@ -19,13 +16,9 @@ const Labexp: NextPage = () => {
         {/* ============ BANNER SECTION START ============ */}
         <Banner />
         {/* ============ BANNER SECTION END ============ */}
-        <AboutLab />
-        <ExperienceLab />
-        <Fotterlab />
         </div>
-        <ScrollBtn />
     </div>
   )
 }
 
-export default Labexp
+export default BCResearch

@@ -136,7 +136,7 @@ const Banner = () => {
                             <p>
                                 or just say 'Hello' - {" "}
                                 <span className='font-semibold text-designColor'>
-                                    nunoandresilva@protonmail.com
+                                    contact me.
                                 </span>
                             </p>
                             </div>

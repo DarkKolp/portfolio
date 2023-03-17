@@ -5,7 +5,7 @@ import Banner from '../components/Home/Banner'
 import Contact from '../components/Home/Contact'
 import Experience from '../components/Home/Experience'
 import Offer from '../components/Home/Offer'
-import ScrollBtn from '../components/Home/ScrollBtn'
+import ScrollBtn from '../components/General/ScrollBtn'
 
 
 const Home: NextPage = () => {

@@ -8,10 +8,13 @@ const ExperienceLab = () => {
       <h1 className='text-[25px] uppercase tracking-[10px] font-semibold text-center'>
         Featured works.
       </h1>
-      <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 
-      lg:gap-2 h-[1000px] md:h-[480px] mt-16 px-6'>
+      {/* Images display */}
+      <div className='w-full h-[1700px] grid grid-cols-1 
+      md:grid-cols-2 md:h-[970px]
+      lg:grid-cols-4 lg:gap-2 lg:h-[480px]
+      mt-16 px-6 gap-4'>
         
-
+        {/* Image 1 */}
         <div className='w-full h-full relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-100'
           src={MaqCafe} 
@@ -25,7 +28,7 @@ const ExperienceLab = () => {
             </div>
           </div>
         </div>
-
+        {/* Image 2 */}
         <div className='w-full h-full relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-100'
           src={wimg2} 
@@ -39,7 +42,7 @@ const ExperienceLab = () => {
             </div>
           </div>
         </div>
-
+        {/* Image 3 */}
         <div className='w-full h-full relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-100'
           src={wimg3} 
@@ -53,7 +56,7 @@ const ExperienceLab = () => {
             </div>
           </div>
         </div>
-
+        {/* Image 4 */}
         <div className='w-full h-full relative overflow-hidden group'>
           <Image className='w-full h-full object-cover scale-125'
           src={wimg4} 

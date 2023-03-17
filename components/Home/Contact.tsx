@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {motion} from "framer-motion"
-import { FaMap, FaPhoneAlt, FaEnvelope } from "react-icons/fa"
+import { FaMap, FaLinkedinIn, FaGithub } from "react-icons/fa"
 
 const Contact = () => {
     const [username, setUsername] = useState("");
@@ -34,21 +34,23 @@ const Contact = () => {
                     Get in touch!
                 </h1>
                 {/* Icons */}
-                <div className='flex flex-col md:flex-row justify-between items-center'>
+                <div className='flex flex-row px-3 justify-between items-center'>
                     {/* Location Icon */}
                     <div className='flex flex-col items-center gap-3'>
-                        <FaMap className='text-4xl md:text-6xl text-designColor' />
-                        <p className='text-sm tracking-wide'>Braga, Portugal</p>
+                        <FaMap className='text-6xl md:text-6xl text-designColor' />
+                        <p className='text-l tracking-wide'>Braga, Portugal</p>
                     </div>
-                    {/* Phone Icon */}
+                    {/* LinkedIn Icon */}
                     <div className='flex flex-col items-center gap-3'>
-                        <FaPhoneAlt className='text-4xl md:text-6xl text-designColor' />
-                        <p className='text-sm tracking-wide'>+351 915 *** ***</p>
+                        <a href="https://www.linkedin.com/in/nuno-osilva/">
+                            <FaLinkedinIn className='text-6xl md:text-7xl text-designColor' />
+                        </a>
                     </div>
-                    {/* Location Icon */}
+                    {/* Github Icon */}
                     <div className='flex flex-col items-center gap-3'>
-                        <FaEnvelope className='text-4xl md:text-6xl text-designColor' />
-                        <p className='text-sm tracking-wide'>nunoandresilva@protonmail.com</p>
+                        <a href="https://github.com/DarkKolp">
+                            <FaGithub className='text-6xl md:text-7xl text-designColor' />
+                        </a>
                     </div>
                 </div>
                 {/* This part has a function to drop a success message that overlaps the form
