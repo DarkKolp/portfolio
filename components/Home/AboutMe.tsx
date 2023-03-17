@@ -4,14 +4,17 @@ import AboutList from './AboutList'
 const AboutMe = () => {
   return ( <section 
     id='about'
-    className='w-full h-full bg-black text-white py-28 md:px-40'
+    className='w-full h-full bg-black text-white py-28 px-20 2xl:px-40'
     >
 
         <div className='max-w-6x1 mx-auto flex flex-col gap-6 md:gap-16'>
-            <h1 className='text-[27px] uppercase font-bold text-center'>
+            <h1 className='text-4xl uppercase font-bold text-center'>
                 Who am i?
             </h1>
-            <p className='text-xl md:text-3xl font-medium md:leading-relaxed text-textColor'>
+            <p className='text-xl px-0 font-medium text-textColor
+            md:text-2xl md:leading-relaxed
+            lg:text-2xl
+            2xl:text-3xl'>
                 I'm{" "}
                 <span className='font-bold tracking-wider text-white'>
                     Nuno Silva

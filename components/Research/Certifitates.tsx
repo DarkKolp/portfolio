@@ -5,17 +5,21 @@ import { cimg1 } from "../../public/assets/Certificates/index.js";
 
 const Certificates = () => {
   return (
-    <section id='certificates' className='w-full h-full bg-gray-900 text-white py-28'>
-      <h1 className='text-[25px] uppercase tracking-[10px] font-semibold text-center'>
+    <section id='certificates' className='w-full h-full bg-[#0c0e0f] text-white py-28'>
+      <h1 className='text-xl md:text-2xl lg:text-3xl uppercase tracking-[10px] font-semibold text-center'>
         Certificates
       </h1>
-      <p className='text-xl md:text-3xl px-40 mt-16 font-medium md:leading-relaxed text-textColor'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo mollitia ut numquam eligendi 
-                corporis a tempora laudantium explicabo. 
+      <p className='text-xl px-5 mt-16 font-medium text-textColor
+      md:px-20 md:text-2xl md:leading-relaxed
+      lg:px-20 lg:text-2xl
+      xl:px-20 xl:text-3xl
+      2xl:px-40 2xl:text-3xl'>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo mollitia ut numquam eligendi 
+        corporis a tempora laudantium explicabo. 
       </p>
 
       {/* Images display (only 2 per div)*/}
-      <div className='w-full h-[1700px] flex flex-col 
+      <div className='w-full h-[785px] flex flex-col 
       md:flex md:flex-col md:h-[1600px] md:px-40
       lg:flex lg:flex-col lg:h-[1600px] lg:pl-80 
       xl:flex xl:flex-col xl:h-[1600px] items-center
@@ -43,7 +47,7 @@ const Certificates = () => {
         </Link>
       </div>
 
-      <div className='w-full h-[1700px] flex flex-col 
+      <div className='w-full h-[785px] flex flex-col 
       md:flex md:flex-col md:h-[1600px] md:px-40
       lg:flex lg:flex-col lg:h-[1600px] lg:pl-80 
       xl:flex xl:flex-col xl:h-[1600px] items-center

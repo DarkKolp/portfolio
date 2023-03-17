@@ -18,7 +18,7 @@ const Design = () => {
     }, []
     );
 
-    return ( <div className="w-full h-full bg-proj-banner md:bg-cover bg-center lg:bg-top-[10]">
+    return ( <div className="w-full h-full bg-proj-banner bg-cover lg:bg-center">
         <Particles
             className="w-full h-full"
             id="tsparticles"
