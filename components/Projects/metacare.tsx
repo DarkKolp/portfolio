@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
-import { wimg1 } from "../../public/assets/Projects/index.js";
+import { metacareLogo } from "../../public/assets/Projects/index.js";
 
 const Metacare = () => {
   return (
@@ -23,7 +23,7 @@ const Metacare = () => {
         <Link href='https://ipfs.io/ipfs/Qmbx7kmzmToNBwkt77pMzkfDU29dMMhEtB99haohqQEEAY?filename=Certificate_EthereumProg101.JPG'>
           <div className='w-[300px] h-[423px] md:w-[560px] md:h-[793px] relative overflow-hidden group'>
             <Image className='w-full h-full object-cover scale-100'
-            src={wimg1} 
+            src={metacareLogo} 
             alt="cimg1" 
             />
           </div>
