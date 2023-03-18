@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import type { Container, Engine } from "tsparticles-engine";
 import { loadFull } from "tsparticles";
 
-const Design = () => {
+const DesignProj = () => {
     const particlesInit = useCallback(async (engine: Engine) => {
         console.log(engine);
 
@@ -18,7 +18,7 @@ const Design = () => {
     }, []
     );
 
-    return ( <div className="w-full h-full bg-research-banner bg-cover lg:bg-center">
+    return ( <div className="w-full h-full bg-projects-banner bg-cover lg:bg-center">
         <Particles
             className="w-full h-full"
             id="tsparticles"
@@ -57,7 +57,7 @@ const Design = () => {
                         color: "#ffffff",
                         distance: 100,
                         enable: true,
-                        opacity: 0.6,
+                        opacity: 0.8,
                         width: 1,
                     },
                     collisions: {
@@ -97,4 +97,4 @@ const Design = () => {
     )
 }
 
-export default Design
+export default DesignProj

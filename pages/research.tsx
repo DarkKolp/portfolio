@@ -4,6 +4,7 @@ import Head from 'next/head'
 import BannerR from '../components/Research/BannerR'
 import AboutR from '../components/Research/AboutR'
 import Certificates from '../components/Research/Certifitates'
+import ScrollBtn from '../components/General/ScrollBtn'
 
 
 const BCResearch: NextPage = () => {
@@ -21,6 +22,7 @@ const BCResearch: NextPage = () => {
         <AboutR />
         <Certificates />
         </div>
+        <ScrollBtn />
     </div>
   )
 }

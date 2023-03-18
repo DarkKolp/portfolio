@@ -79,7 +79,7 @@ const Experience = () => {
               <h1 className='text-2xl text-center font-bold px-6 py-2 w-full 
               absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 top-10'>2020 - Present</h1>
               {/* Link to the maintenance page */}
-              <Link href="/maintenance">
+              <Link href="/projects">
               <button 
               className='text-xl text-center font-bold bg-designColor px-6 py-2 w-60 
               absolute left-1/2 transform -translate-x-1/2 -translate-y-1/2 bottom-10'

@@ -1,7 +1,12 @@
 import { NextPage } from 'next'
 import React from 'react'
 import Head from 'next/head'
-import Banner from '../components/Labexp/BannerLab'
+import BannerProj from '../components/Projects/BannerProj'
+import AboutProj from '../components/Projects/AboutProj'
+import ScrollBtn from '../components/General/ScrollBtn'
+import Spatium from '../components/Projects/SpatiumProj'
+import Metacare from '../components/Projects/metacare'
+import ToBeAnounced from '../components/Projects/ToBeAnounced'
 
 
 const Projects: NextPage = () => {
@@ -14,9 +19,14 @@ const Projects: NextPage = () => {
 
         <div className="font-bodyFont w-screen" > {/* w-fit solves the small screen media query */}
         {/* ============ BANNER SECTION START ============ */}
-        <Banner />
+        <BannerProj />
+        <AboutProj />
+        <Spatium />
+        <Metacare />
+        <ToBeAnounced />
         {/* ============ BANNER SECTION END ============ */}
         </div>
+        <ScrollBtn />
     </div>
   )
 }

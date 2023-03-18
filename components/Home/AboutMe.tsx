@@ -11,7 +11,7 @@ const AboutMe = () => {
             <h1 className='text-4xl uppercase font-bold text-center'>
                 Who am i?
             </h1>
-            <p className='text-xl px-0 font-medium text-textColor
+            <p className='text-3xl px-0 font-medium text-textColor
             md:text-2xl md:leading-relaxed
             lg:text-2xl
             2xl:text-3xl'>
@@ -29,7 +29,7 @@ const AboutMe = () => {
                 technologies over the course of my nearly three-year independent research career,
                  particularly its infrastructure, DeFi, Multichain, NFTs, and Metaverse.
             </p>
-            <div className='w-[700px] grid grid-cols-1 md:grid-cols-2 gap-8'>
+            <div className='w-[700px] grid grid-cols-1 md:grid-cols-2 gap-8 pt-[20px]'>
                 <AboutList title="Web Design" />
                 <AboutList title="Solidity" />
                 <AboutList title="Web3.js" />

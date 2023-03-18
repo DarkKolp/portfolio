@@ -13,7 +13,8 @@ module.exports = {
       backgroundImage:{
         "hero-image":"url('/assets/bannerImg.jpg')",
         "lab-banner":"url('/assets/labexp/labBanner.jpg')",
-        "proj-banner":"url('/assets/projBanner.jpg')",
+        "research-banner":"url('/assets/projBanner.jpg')",
+        "projects-banner":"url('/assets/projectsBanner.jpg')",
         "contact-image":"url('/assets/contactimg.jpg')",
       },
       colors:{
