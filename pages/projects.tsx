@@ -3,7 +3,7 @@ import React from 'react'
 import Head from 'next/head'
 import BannerProj from '../components/Projects/BannerProj'
 import AboutProj from '../components/Projects/AboutProj'
-import ScrollBtn from '../components/General/ScrollBtn'
+import ScrollBtnSec from '../components/General/ScrollBtnSec'
 import Spatium from '../components/Projects/SpatiumProj'
 import Metacare from '../components/Projects/metacare'
 import ToBeAnounced from '../components/Projects/ToBeAnounced'
@@ -26,7 +26,7 @@ const Projects: NextPage = () => {
         <ToBeAnounced />
         {/* ============ BANNER SECTION END ============ */}
         </div>
-        <ScrollBtn />
+        <ScrollBtnSec />
     </div>
   )
 }

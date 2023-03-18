@@ -15,19 +15,22 @@ const AboutMe = () => {
             md:text-2xl md:leading-relaxed
             lg:text-2xl
             2xl:text-3xl'>
-                I'm{" "}
+                Hi, I'm {" "}
                 <span className='font-bold tracking-wider text-white'>
                     Nuno Silva
-                </span>{" "}
-                and I'm a self-taught Blockchain and Web3{" "}
+                </span>{" "} {"–"} {" "}
+                a self-taught{" "}
                 <span className='font-bold tracking-wider text-white'>
-                    Developer and Researcher
-                </span>. I have a strong scientific background, which provided me with, 
-                among other things, the drive to acquire new and current knowledge, as 
-                well as critical thinking and the ability to seek reliable information. 
-                I have devoted thousands of hours to studying and researching Blockchain 
-                technologies over the course of my nearly three-year independent research career,
-                 particularly its infrastructure, DeFi, Multichain, NFTs, and Metaverse.
+                Blockchain, Web3 Developer and Researcher
+                </span> with a strong scientific background. Over the past three years, 
+                I've devoted thousands of hours to studying and researching Blockchain technologies,
+                 particularly their infrastructure, DeFi, Multichain, NFTs, and Metaverse. With my habilities to 
+                 acquire new knowledge and critical thinking skills, I bring a unique 
+                 perspective to Blockchain development and I am keen to tackle complex challenges in this exciting field.
+
+
+
+
             </p>
             <div className='w-[700px] grid grid-cols-1 md:grid-cols-2 gap-8 pt-[20px]'>
                 <AboutList title="Web Design" />

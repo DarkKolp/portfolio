@@ -57,7 +57,7 @@ const Design = () => {
                         color: "#ffffff",
                         distance: 100,
                         enable: true,
-                        opacity: 0.6,
+                        opacity: 0.5,
                         width: 1,
                     },
                     collisions: {
@@ -81,7 +81,7 @@ const Design = () => {
                         value: 100,
                     },
                     opacity: {
-                        value: 1,
+                        value: 0.5,
                     },
                     shape: {
                         type: "circle",

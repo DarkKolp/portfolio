@@ -9,29 +9,33 @@ const Offer = () => {
   return (
     <section id='offers' className='bg-[#0c0e0f] text-white py-28'>
         <div>
-            <h1 className='text-[25px] uppercase tracking-[6px] font-bodyFont font-bold text-center text-white'>
+            <h1 className='text-3xl uppercase tracking-[6px] font-bodyFont font-bold text-center text-white'>
                 What I can offer.
             </h1>
-            <div className='w-full py-20 px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10'>
+            <div className='w-full text-l py-20 px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10'>
                 <OfferCard 
-                    title="Branding"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
-                    Icon={RxCopy}
+                    title="Web3 Development"
+                    subtitle="Build dApps and work with blockchain-based protocols. Specialize in Ethereum development.
+                    "
+                    Icon={FaConnectdevelop}
                 />
                 <OfferCard 
-                    title="Branding"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+                    title="Strategist"
+                    subtitle="Develop Blockchain strategies for businesses. Analyze market trends and provide innovative solutions.
+                    "
                     Icon={SiAntdesign}
                 />
                 <OfferCard 
-                    title="Branding"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
+                    title="Blockchain Research"
+                    subtitle="Independent researcher with a focus on Blockchain infrastructure, NFTs, DeFi and more.
+                    "
                     Icon={HiAcademicCap}
                 />
                 <OfferCard 
-                    title="Branding"
-                    subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do"
-                    Icon={FaConnectdevelop}
+                    title="Advisory"
+                    subtitle="Provide guidance and advice on Blockchain projects. Analyze complex systems and propose solutions.
+                    "
+                    Icon={RxCopy}
                 />
             </div>
         </div>

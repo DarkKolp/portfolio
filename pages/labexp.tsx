@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Banner from '../components/Labexp/BannerLab'
 import AboutLab from '../components/Labexp/AboutLab'
 import ExperienceLab from '../components/Labexp/ExperienceLab'
-import ScrollBtn from '../components/General/ScrollBtn'
+import ScrollBtnSec from '../components/General/ScrollBtnSec'
 import Fotterlab from '../components/Labexp/Fotterlab'
 
 const Labexp: NextPage = () => {
@@ -23,7 +23,7 @@ const Labexp: NextPage = () => {
         <ExperienceLab />
         <Fotterlab />
         </div>
-        <ScrollBtn />
+        <ScrollBtnSec />
     </div>
   )
 }

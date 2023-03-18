@@ -23,6 +23,11 @@ const Fotterlab = () => {
                     <h1 className='text-white text-xl md:text-2xl font-bold pr-2 flex'>Doctor Nuno João Silva
                     <BiLinkExternal className='text-white text-2xl pl-2' /></h1>
                 </Link>
+                {/* Rui Silva */}
+                <Link href='http://groups.ist.utl.pt/fct-phd/biotecnico/the-students/alumin/rui-oliveira-silva/'>
+                    <h1 className='text-white text-xl md:text-2xl font-bold pr-2 flex'>Doctor Rui Oliveira Silva
+                    <BiLinkExternal className='text-white text-2xl pl-2' /></h1>
+                </Link>
                 {/* Logo Ciceco */}
                 <Link href='https://www.ciceco.ua.pt/'
                 className=''>
