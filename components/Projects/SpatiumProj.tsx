@@ -36,11 +36,15 @@ const Spatium = () => {
       lg:px-20 lg:text-2xl
       xl:px-20 xl:text-3xl
       2xl:px-40 2xl:text-3xl'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus fuga fugit doloremque totam,
-        nesciunt, quo molestiae ut quis excepturi tempora, aspernatur commodi praesentium accusantium perferendis.
-        Voluptatibus corporis, explicabo sed sunt sit in voluptatem quidem est magnam provident atque quia vel,
-        pariatur quod, iusto dolorum iste maiores quasi expedita aliquam fugiat asperiores. Reiciendis commodi
-        hic delectus eum voluptas laborum tenetur soluta modi inventore accusantium.
+        Spatium is a concept for a decentralized autonomous organization (DAO) built on top of Chromia, a relational blockchain 
+        designed for developing decentralized applications. Chromia provides Spatium with the scalability and security 
+        needed to support its Sci-fi multiplayer Role-Playing Game (RPG) and Decentralized Finance (DeFi) concept - Automated Market Maker (AMM). 
+        With Chromia's relational database structure, Spatium can efficiently manage complex data and transactions, such as player ownership 
+        of in-game assets, voting rights in the platform, and rewards distribution for liquidity providers. Chromia's relational model allows for 
+        optimized storage, querying, and indexing of data, enabling Spatium to offer a seamless and immersive user experience. Additionally, Chromia's 
+        unique features, such as smart contract-level access control and cross-chain communication, allow Spatium to provide advanced functionalities and 
+        interoperability with other blockchains. By leveraging the benefits of Chromia's technology, Spatium aims to create a democratic governed game with 
+        engaging lore and community building at its core, while also providing a reliable and secure platform for DeFi transactions.
       </p>
       
 

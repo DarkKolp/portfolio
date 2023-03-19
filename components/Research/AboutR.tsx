@@ -15,14 +15,17 @@ const AboutR = () => {
             lg:px-20 lg:text-2xl
             xl:px-20 xl:text-3xl
             2xl:px-40 2xl:text-3xl'>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo mollitia ut numquam eligendi 
-                corporis a tempora laudantium explicabo. Facilis doloribus, itaque vel nihil sint ad aliquam quasi 
-                assumenda! Saepe totam magnam recusandae iste velit placeat expedita quidem et natus unde commodi 
-                repudiandae voluptatum dolor quod, officia amet fugit delectus quibusdam quam sequi harum itaque iusto dicta. 
-                Necessitatibus ratione reiciendis natus nulla eum dolorem at cupiditate commodi minus rem maiores delectus quod quas, 
-                debitis obcaecati totam ipsum vel suscipit nemo possimus asperiores harum dolores! Iure, a quidem? Ipsum, reprehenderit rerum? 
-                Tempore obcaecati iste incidunt nam eligendi! Aliquam nostrum distinctio, odit magnam fuga recusandae? Sunt minima est iure 
-                cupiditate quisquam, enim, ad numquam optio pariatur hic magni quasi at, omnis modi. Nulla, nostrum.
+                As someone with a deep passion for science and disruptive technologies, I am constantly seeking to 
+                learn new skills and stay up to date with the latest trends. My interest in the web3 ecosystem led 
+                me to pursue various educational opportunities and earn several certifications, which are now available as NFTs on my website. <br />
+                <br />
+                Although I am the issuer of those NFTs, they are an important way to prove the authenticity and ownership of a document, as they are unique 
+                and can be traced back to their original creator. This is particularly relevant in the web3 space, where 
+                decentralization is a key principle and trust is essential. By using NFTs to represent my educational achievements, 
+                I am not only showcasing my skills and knowledge, but also demonstrating my commitment to transparency and accountability. <br />
+                <br />
+                Overall, my educational background and interest in staying at the forefront of the web3 ecosystem make me a 
+                valuable asset to any team or project looking to innovate and disrupt traditional industries.
             </p>
         </div>
     

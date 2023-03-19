@@ -14,10 +14,10 @@ const AboutProj = () => {
             md:text-2xl md:leading-relaxed
             lg:text-2xl
             2xl:text-3xl'>
-                Sometimes daily tools can have a good ultility in a non conventional manner. Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Saepe blanditiis non, consequatur distinctio aut illo reiciendis. Id magnam dicta maiores 
-                ipsa provident possimus libero totam illo! Illo sint rem porro minus nesciunt placeat doloribus tenetur. Facere 
-                tenetur enim distinctio amet qui explicabo fuga aliquam veniam dolor ipsum. Consectetur, exercitationem.
+                Welcome to my projects page, where I showcase some of my recent endeavors 
+                in the world of blockchain and Web3. From exploring decentralized exchanges 
+                to bridging personal health data to the blockchain, these projects have been a 
+                great learning experience for me. Take a look and see what I've been up to!
             </p>
         </div>
     
