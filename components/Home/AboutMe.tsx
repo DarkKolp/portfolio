@@ -22,13 +22,19 @@ const AboutMe = () => {
                 and I am self-driven{" "}
                 <span className='font-bold tracking-wider text-white'>
                 Blockchain Developer and "Explorer"
-                </span> with a solid scientific background. Acknowledging the perks of the blockchain and its underlying 
-                technologies, such as smart-contracts and web3, to overcome, circumvent and even boost many limitations of 
-                contemporary technologies and propel our capabilities, I’ve decided to focus and pursue researching within 
-                this framework. For the past three years I’ve been researching and exploring its infrastructure – from Defi, 
-                Multichain NFTs and the Metaverse. Besides the obvious hardskills that I’ve acquired throughout this quest, 
-                such as …. I also acquired several softskills as I was searching to learn for new projects and concepts which 
-                provided me the opportunity to interact and learn along my peers from all over the world about this exciting field.
+                </span> with a solid scientific background. I'm passionate about blockchain and its underlying technologies
+                 like smart contracts and web3, which can overcome many limitations of contemporary technologies and propel 
+                 our capabilities. Over the past three years, I've been researching and exploring the infrastructure of blockchain, 
+                 including Defi, Multichain, NFTs and the Metaverse. Along the way, I've acquired several hardskills such as proficiency 
+                 in Solidity programming language, understanding of blockchain consensus mechanisms, cryptography, and experience in 
+                 working with blockchain toolkits and frameworks. These skills have enabled me to develop and deploy decentralized applications (DApps) 
+                 on blockchain platforms like Ethereum and other EVM chains. Additionally, I've acquired various soft 
+                 skills through collaborating with my peers from all over the world on new projects and concepts, enhancing my abilities 
+                 as a blockchain professional.
+
+
+
+
 
 
 
@@ -42,7 +48,9 @@ const AboutMe = () => {
                         <AboutList title="Solidity" />
                         <AboutList title="Truffle/Hardhat" />
                         <AboutList title="Web3.js/Ether.js" />
+                        <AboutList title="IPFS" />
                         <AboutList title="Javascript" />
+                        <AboutList title="Node.js" />
                         <AboutList title="React" />
                         <AboutList title="Tailwind" />
                         <AboutList title="Typescript" />
@@ -50,7 +58,7 @@ const AboutMe = () => {
                     </div>
                 </div>
 
-                <div className='pt-[70px] flex flex-col 2xl:pt-0 2xl:mb-[64px]'>
+                <div className='pt-[70px] flex flex-col 2xl:pt-0 2xl:mb-[130px]'>
                     <h1 className='text-2xl uppercase font-bold text-center 2xl:mr-[175px]'>Soft skills</h1>
 
                     <div className='w-[700px] place-items-left grid grid-cols-2 gap-8 pt-[40px]'>
