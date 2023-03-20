@@ -34,26 +34,26 @@ const AboutMe = () => {
 
 
             </p>
-            <div className='pt-[20px] flex flex-col items-center justify-around 2xl:flex-row'>
+            <div className='pt-[50px] flex flex-col items-center justify-around 2xl:flex-row'>
                 <div className='flex flex-col'>
                     <h1 className='text-2xl uppercase font-bold text-center 2xl:mr-[175px]'>Technical skills</h1>
 
-                    <div className='w-[700px] place-items-left grid grid-cols-2 gap-8 pt-[20px]'>
+                    <div className='w-[700px] place-items-left grid grid-cols-2 gap-8 pt-[40px]'>
                         <AboutList title="Solidity" />
                         <AboutList title="Truffle/Hardhat" />
                         <AboutList title="Web3.js/Ether.js" />
                         <AboutList title="Javascript" />
                         <AboutList title="React" />
                         <AboutList title="Tailwind" />
-                        <AboutList title="Next.js" />
+                        <AboutList title="Typescript" />
                         <AboutList title="VBA" />
                     </div>
                 </div>
 
-                <div className='pt-[50px] flex flex-col 2xl:pt-0 2xl:mb-[64px]'>
+                <div className='pt-[70px] flex flex-col 2xl:pt-0 2xl:mb-[64px]'>
                     <h1 className='text-2xl uppercase font-bold text-center 2xl:mr-[175px]'>Soft skills</h1>
 
-                    <div className='w-[700px] place-items-left grid grid-cols-2 gap-8 pt-[20px]'>
+                    <div className='w-[700px] place-items-left grid grid-cols-2 gap-8 pt-[40px]'>
                         <AboutList title="Adaptability" />
                         <AboutList title="Communication" />
                         <AboutList title="Curiosity" />

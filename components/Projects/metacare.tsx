@@ -20,15 +20,14 @@ const Metacare = () => {
       mt-16 gap-10'>
         
         {/* Image 1 */}
-        <Link href='https://ipfs.io/ipfs/Qmbx7kmzmToNBwkt77pMzkfDU29dMMhEtB99haohqQEEAY?filename=Certificate_EthereumProg101.JPG'>
+
           <div className='w-[300px] h-[423px] md:w-[560px] md:h-[793px] relative overflow-hidden group'>
             <Image className='w-full h-full object-cover scale-100'
             src={metacareLogo} 
             alt="cimg1" 
             />
           </div>
-        </Link>
-
+          
       </div>
 
       <p className='text-3xl pt-5 px-10 lg:px-40 lg:pt-20 md:text-3xl font-medium md:leading-relaxed text-textColor'>

@@ -6,8 +6,8 @@ import { wimg1, wimg2, wimg3 } from "../../public/assets/index.js";
 const Experience = () => {
   return (
     <section id='portfolio' className='w-full h-full bg-black text-white py-28'>
-      <h1 className='text-[25px] uppercase tracking-[10px] font-semibold text-center'>
-        Featured works.
+      <h1 className='text-3xl uppercase tracking-[10px] font-semibold text-center'>
+        Experiences
       </h1>
       {/* Images display */}
       <div className='w-full h-[1350px] grid grid-cols-1 gap-4

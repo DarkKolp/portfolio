@@ -20,14 +20,12 @@ const Spatium = () => {
       mt-16 gap-10'>
         
         {/* Image 1 */}
-        <Link href='https://ipfs.io/ipfs/Qmbx7kmzmToNBwkt77pMzkfDU29dMMhEtB99haohqQEEAY?filename=Certificate_EthereumProg101.JPG'>
           <div className='w-[560px] h-[793px] md:w-[560px] md:h-[793px] relative overflow-hidden group'>
             <Image className='w-full h-full object-cover scale-100'
             src={wimg1} 
             alt="cimg1" 
             />
           </div>
-        </Link>
 
       </div>
       
@@ -42,6 +40,12 @@ const Spatium = () => {
         interoperability with other blockchains. By leveraging the benefits of Chromia's technology, Spatium aims to create a democratic governed game with 
         engaging lore and community building at its core, while also providing a reliable and secure platform for DeFi transactions.
       </p>
+      <Link
+      href='https://drive.google.com/file/d/1p11QkWyxTrhNk2lts2LTNtqDksftJ7Xa/view?usp=sharing'>
+        <p className='text-3xl pt-5 px-10 lg:px-40 lg:pt-10 md:text-3xl font-medium underline md:leading-relaxed text-textColor'>
+          Read the full whitepaper of this idea (unfinished)
+        </p>
+      </Link>
       
 
 

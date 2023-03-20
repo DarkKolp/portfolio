@@ -6,7 +6,7 @@ import AboutProj from '../components/Projects/AboutProj'
 import ScrollBtn from '../components/General/ScrollBtnSec'
 import Spatium from '../components/Projects/SpatiumProj'
 import Metacare from '../components/Projects/metacare'
-import ToBeAnounced from '../components/Projects/ToBeAnounced'
+import OrderbookDEX from '../components/Projects/OrderbookDEX'
 
 
 const Projects: NextPage = () => {
@@ -23,7 +23,7 @@ const Projects: NextPage = () => {
         <AboutProj />
         <Spatium />
         <Metacare />
-        <ToBeAnounced />
+        <OrderbookDEX />
         {/* ============ BANNER SECTION END ============ */}
         </div>
         <ScrollBtn />
