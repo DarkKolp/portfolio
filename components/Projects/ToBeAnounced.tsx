@@ -6,7 +6,7 @@ import { wimg1 } from "../../public/assets/Projects/index.js";
 const ToBeAnounced = () => {
   return (
     <section id='certificates' className='w-full h-full bg-[#0c0e0f] text-white py-28'>
-      <h1 className='text-xl md:text-2xl lg:text-3xl uppercase tracking-[10px] font-semibold text-center'>
+      <h1 className='text-2xl md:text-2xl lg:text-3xl uppercase tracking-[10px] font-semibold text-center'>
         Orderbook Decentralized Exchange
       </h1>
 

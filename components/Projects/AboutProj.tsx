@@ -10,10 +10,7 @@ const AboutProj = () => {
             <h1 className='text-[27px] uppercase font-bold text-center'>
                 About this experience
             </h1>
-            <p className='text-2xl px-0 font-medium text-textColor
-            md:text-2xl md:leading-relaxed
-            lg:text-2xl
-            2xl:text-3xl'>
+            <p className='text-3xl pt-5 lg:pt-0 md:text-3xl font-medium md:leading-relaxed text-textColor'>
                 Welcome to my projects page, where I showcase some of my recent endeavors 
                 in the world of blockchain and Web3. From exploring decentralized exchanges 
                 to bridging personal health data to the blockchain, these projects have been a 
