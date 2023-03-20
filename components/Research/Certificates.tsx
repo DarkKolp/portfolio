@@ -62,7 +62,7 @@ const Certificates = () => {
 
         {/* Image 4 - Eth P 201 */}
         <Link href='https://ipfs.io/ipfs/QmTu76XcqhdYvBYG4Eb7Zoi7YTNiC2rhZXwgEQEmyTgw3k?filename=ETHP201.jpg'>
-          <div className='w-w-[613px] h-[865px] md:w-[559px] md:h-[789px] relative overflow-hidden group'>
+          <div className='w-[613px] h-[865px] md:w-[559px] md:h-[789px] relative overflow-hidden group'>
             <Image className='w-full h-full object-cover scale-100'
             src={cimg4} 
             alt="cimg4" 

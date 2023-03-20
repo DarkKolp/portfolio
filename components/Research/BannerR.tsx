@@ -44,8 +44,8 @@ const BannerR = () => {
                 </div>
             </nav>
             <div className='w-full h-full flex flex-col justify-center items-center px-4 bg-black bg-opacity-40'>
-                <h1 className='text-[60px] md:text-[60px] lg:text-[100px] font-black'>Blockchain & Web3 Education</h1>
-                <h3 className='text-[30px] md:text-[24px] lg:text-[40px] font-black'>Unlocking potential through neuron connections</h3>
+                <h1 className='text-[50px] md:text-[60px] lg:text-[100px] font-black'>Blockchain & Web3 Education</h1>
+                <h3 className='text-[25px] md:text-[24px] lg:text-[40px] font-black'>Unlocking potential through neuron connections</h3>
             </div>
         </div>       
     </section>
