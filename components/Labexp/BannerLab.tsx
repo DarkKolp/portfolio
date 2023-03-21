@@ -45,7 +45,7 @@ const Banner = () => {
             </nav>
             <div className='w-full h-full flex flex-col justify-center items-center px-4'>
                 <h1 className='text-[60px] md:text-[60px] lg:text-[100px] font-black'>Laboratory Experience</h1>
-                <h3 className='text-[25px] md:text-[24px] lg:text-[40px] font-black'>Once I tried to connect atoms and molecules to assemble particles</h3>
+                <h3 className='text-[25px] md:text-[24px] lg:text-[40px] font-black'>Once I connected atoms and molecules to assemble particles</h3>
             </div>
         </div>       
     </section>
