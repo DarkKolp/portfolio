@@ -12,7 +12,7 @@ const OrderbookDEX = () => {
 
       {/* VER O QUE SE PASSA COM O 2XL */}
       {/* Images display (only 2 per div)*/}
-      <div className='w-full h-[480px] flex flex-col 
+      <div className='w-full h-[650px] flex flex-col 
       md:flex md:flex-col  md:px-40
       lg:flex lg:flex-col 
       xl:flex xl:flex-col  

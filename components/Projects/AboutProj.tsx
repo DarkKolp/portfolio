@@ -11,7 +11,7 @@ const AboutProj = () => {
                 About this experience
             </h1>
             <p className='text-3xl pt-5 lg:pt-0 md:text-3xl font-medium md:leading-relaxed text-textColor'>
-                Welcome to my projects page, where I showcase some of my recent endeavors 
+                Welcome to my projects page, where I highlight some of my recent endeavors 
                 in the world of blockchain and Web3. From exploring decentralized exchanges 
                 to bridging personal health data to the blockchain, these projects have been a 
                 great learning experience for me. Take a look and see what I've been up to!

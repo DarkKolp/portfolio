@@ -21,7 +21,7 @@ const AboutLab = () => {
             in electronic devices to improve their performance and efficiency, and in water treatment to remove pollutants. 
             <br />
             <br />  
-            The future potential of nanoparticles is vast, and ongoing research continues to uncover new applications and properties. 
+            The future potential of nanoparticles is enormous, and ongoing research continues to uncover new applications and properties. 
             For example, researchers are exploring the use of nanoparticles in medicine and biosensors, as well as in biotechnology 
             and materials science.
             </p>

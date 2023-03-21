@@ -27,10 +27,8 @@ const AboutMe = () => {
                  our capabilities. Over the past three years, I've been researching and exploring the infrastructure of blockchain, 
                  including Defi, Multichain, NFTs and the Metaverse. Along the way, I've acquired several hardskills such as proficiency 
                  in Solidity programming language, understanding of blockchain consensus mechanisms, cryptography, and experience in 
-                 working with blockchain toolkits and frameworks. These skills have enabled me to develop and deploy decentralized applications (DApps) 
-                 on blockchain platforms like Ethereum and other EVM chains. Additionally, I've acquired various soft 
-                 skills through collaborating with my peers from all over the world on new projects and concepts, enhancing my abilities 
-                 as a blockchain professional.
+                 working with blockchain toolkits and frameworks. Additionally, working on new initiatives and ideas with peers from 
+                 around the globe has helped me develop a variety of soft skills that have improved my abilities as a blockchain professional.
 
 
 
