@@ -1,5 +1,5 @@
 import { NextPage } from 'next'
-import React from 'react'
+import  React, { useEffect , useState } from 'react'
 import Head from 'next/head'
 import BannerR from '../components/Research/BannerR'
 import AboutR from '../components/Research/AboutR'
@@ -7,7 +7,30 @@ import Certificates from '../components/Research/Certificates'
 import ScrollBtn from '../components/General/ScrollBtnSec'
 
 
+
+
 const BCResearch: NextPage = () => {
+  const [nftImages, setNftImages] = useState([]);
+    useEffect(() => {
+            fetch("/api/hello", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            })
+                .then((response) => {
+                    return response.json();
+                })
+                .then((data) => {
+                    if (data.images) {
+                        setNftImages(data.images);
+                        console.log(data.images)
+                    }
+                })
+                .catch((error) => {
+                    console.error(error);
+                });
+    }, []);
   return (
     <div>
         <Head>
@@ -20,11 +43,14 @@ const BCResearch: NextPage = () => {
         <BannerR />
         {/* ============ BANNER SECTION END ============ */}
         <AboutR />
-        <Certificates />
+        <Certificates 
+        images = {nftImages}/>
         </div>
         <ScrollBtn />
     </div>
   )
 }
+
+
 
 export default BCResearch

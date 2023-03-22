@@ -3,7 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import { cimg1, cimg2, cimg3, cimg4, cimg5, cimg6 } from "../../public/assets/Certificates/index.js";
 
-const Certificates = () => {
+const Certificates = ({images}: any) => {
   return (
     <section id='certificates' className='w-full h-full bg-[#0c0e0f] text-white py-20 px-10 xl:px-40'>
       <h1 className='text-[27px] uppercase font-bold text-center'>
@@ -24,20 +24,14 @@ const Certificates = () => {
         {/* Image 1 - BC and BTC 101*/}
         <Link href='https://ipfs.io/ipfs/QmRsUyS33Jvwha389rd2bZuBzQ3oomArsJWT8ZR2V2Ajc8/BCandBTC101.jpg'>
           <div className='w-[650px] h-[865px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
-            <Image className='w-full h-full object-cover scale-100'
-            src={cimg1} 
-            alt="cimg1" 
-            />
+            <img src={images[0]} alt="" />
           </div>
         </Link>
 
         {/* Image 2 - ETHP 101*/}
         <Link href='https://ipfs.io/ipfs/QmRsUyS33Jvwha389rd2bZuBzQ3oomArsJWT8ZR2V2Ajc8/ETHP101.jpg'>
           <div className='w-[650px] h-[865px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
-            <Image className='w-full h-full object-cover scale-100'
-            src={cimg2} 
-            alt="cimg2" 
-            />
+          <img src={images[1]} alt="" />
           </div>
         </Link>
       </div>
@@ -51,20 +45,14 @@ const Certificates = () => {
         {/* Image 3 - DeFi 101 */}
         <Link href='https://ipfs.io/ipfs/QmRsUyS33Jvwha389rd2bZuBzQ3oomArsJWT8ZR2V2Ajc8/DeFi101.jpg'>
           <div className='w-[650px] h-[865px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
-            <Image className='w-full h-full object-cover scale-100'
-            src={cimg3} 
-            alt="cimg3" 
-            />
+          <img src={images[2]} alt="" />
           </div>
         </Link>
 
         {/* Image 4 - Eth P 201 */}
         <Link href='https://ipfs.io/ipfs/QmRsUyS33Jvwha389rd2bZuBzQ3oomArsJWT8ZR2V2Ajc8/ETHP201.jpg'>
           <div className='w-[650px] h-[865px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
-            <Image className='w-full h-full object-cover scale-100'
-            src={cimg4} 
-            alt="cimg4" 
-            />
+          <img src={images[3]} alt="" />
           </div>
         </Link>
       </div>
@@ -78,20 +66,14 @@ const Certificates = () => {
         {/* Image 5 Chainlink 101 */}
         <Link href='https://ipfs.io/ipfs/QmRsUyS33Jvwha389rd2bZuBzQ3oomArsJWT8ZR2V2Ajc8/Chainlink101.jpg'>
           <div className='w-[650px] h-[865px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
-            <Image className='w-full h-full object-cover scale-100'
-            src={cimg5} 
-            alt="cimg5" 
-            />
+          <img src={images[4]} alt="" />
           </div>
         </Link>
 
         {/* Image 6 - Dapp Progr */}
         <Link href='https://ipfs.io/ipfs/QmRsUyS33Jvwha389rd2bZuBzQ3oomArsJWT8ZR2V2Ajc8/DappProgr.jpg'>
           <div className='w-[650px] h-[865px] md:w-[614px] md:h-[789px] relative overflow-hidden group'>
-            <Image className='w-full h-full object-cover scale-100'
-            src={cimg6} 
-            alt="cimg6" 
-            />
+          <img src={images[5]} alt="" />
           </div>
         </Link>
       </div>
